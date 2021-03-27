@@ -1,0 +1,8 @@
+version: '3'
+services:
+  react:
+    container_name: spotify-next
+    build: .
+    volumes:
+      - ../:/workspace:cached
+    command: sleep infinity
